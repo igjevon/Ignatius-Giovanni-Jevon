@@ -2,10 +2,7 @@
 <html>
 <head>
     <title>Blazters - About Me</title>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-
+    <meta charset="utf-8"/>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css' >
     <link rel="icon" type="Gambar/png" href="Gambar/M.png">
     <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
@@ -13,12 +10,12 @@
 <body style="background-color: #E5E4E4">
     <div id="topbar">
         <div class="col-12 center">
-            <nav class="col-12 padding-16 center navbar">
+            <menu class="col-12 padding-16 center navbar">
                 <li class="col-2"><a href="index.html">Home</a></li>
                 <li class="col-2"><a href="aboutme.html">About Me</a></li>
                 <li class="col-2"><a href="portfolio.html">Portfolio</a></li>
                 <li class="col-2"><a href="contact.html">Contact</a></li>
-            </nav>
+            </menu>
         </div>
     </div>
     <div>
@@ -28,7 +25,7 @@
     </div>
     <div>
         <div class="col-4 center padding-32" style="float:left;">
-            <img class="circle" style="width:256px; height:256px" src="Gambar/Me.jpg"/>
+            <img class="circle" style="width:256px; height:256px" src="Gambar/Me.jpg" alt="Foto Pribadi"/>
         </div>
         <div class="col-8 padding-16">
             <h2>My Biodata</h2>
@@ -37,13 +34,38 @@
             <p>Status : Pelajar/Mahasiswa</p>
             <p>Tempat Studi : Universitas Multimedia Nusantara</p>
         </div>
+        <div class="text">
+            <p>Perkenalkan nama saya Ignatius Giovanni Jevon, dipanggil "Jevon". Saya adalah seorang mahasiswa Informatika angkatan 2018 yang berkuliah di Universitas Multimedia Nusantara. 
+             Saya memilih jurusan Informatika karena saya tertarik ingin belajar dan mengembangkan diri untuk menjadi programmer yang handal terutama dalam hal pembuatan web dan sebagainya.</p>
+            <p>Hobi saya adalah bermain games, mendengarkan musik, dan menonton film. Selain itu saya juga hobi bermain dan menonton sepakbola. </p>
+        </div>
     </div>
-    <div class="text">
-        <p>Perkenalkan nama saya Ignatius Giovanni Jevon, dipanggil "Jevon". Saya adalah seorang mahasiswa Informatika angkatan 2018 yang berkuliah di Universitas Multimedia Nusantara. 
-             Saya memilih jurusan Informatika karena saya ingin belajar dan mengembangkan diri untuk menjadi programmer yang handal terutama dalam hal pembuatan web.</p>
-        <p>Hobi saya adalah bermain games, mendengerkan musik, dan menonton.</p>
+    <div id="gallery" class="row padding-16 grid-container">
+        <br><br><br>
+        <h1 class="title" style="text-align: center">Gallery</h1>
+		<div class="grid-item"><br>What Am I<br><br>
+			<a href="#what" class="button">Click Here</a></div>
+		<div class="grid-item"><br>My Hobby<br><br>
+			<a href="#hobi" class="button">Click Here</a></div>
+		<div class="grid-item"><br>What I Like<br><br>
+			<a href="#like" class="button">Click Here</a></div>
+	</div>
+    <div id="what" class="row white padding-32 center">
+        <img class="square" src="Gambar/Student.jpg" alt="What 1">
+        <img class="square" src="Gambar/Programmer.jpg" alt="What 2">
+        <img class="square" src="Gambar/Hardworker.jpg" alt="What 3">
+    </div>    
+    <div id="hobi" class="row white padding-32 center">       
+        <img class="square" src="Gambar/Football.jpg" alt="Hobi 1">
+        <img class="square" src="Gambar/Music.jpg" alt="Hobi 2">
+        <img class="square" src="Gambar/Movie.png" alt="Hobi 3">
     </div>
-    <div id="footer" style="text-align: center;">
+    <div id="like" class="row white padding-32 center">
+        <img class="square" src="Gambar/Manutd.jpg" alt="Like 1"> 
+        <img class="square" src="Gambar/Game.jpg" alt="Like 2">
+        <img class="square" src="Gambar/Watch.jpg" alt="Like 3">
+    </div>
+    <div id="footer" style="text-align: center; width: 100%">
         <p>Created By Ignatius Giovanni Jevon - 00000026850</p>
     </div>
 </body>
