@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Manjari', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center{
+    text-align: center;
+}
+
+#topbar{
+    overflow: hidden;
+    background: #111010;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    padding: 5px;
+}
+
+#home{
+    background-color: #111010;
+    color: white;
+}
+
+#aboutme{
+    background-color: #E5E4E4;
+    color: black;
+}
+
+#moreaboutme{
+    background-color: #111010;
+    color: white;
+}
+
+#portfolio{
+    background-color: #E5E4E4;
+}
+
+#portfolio2{
+    background-color: #E5E4E4;
+}
+
+#port1{
+    background-color: #E5E4E4;
+    color: black;
+}
+
+#port2{
+    background-color: #111010;
+    color: white;
+}
+
+#contact{
+    background-color: #111010;
+    color: white;
+}
+
+#contact2{
+    background-color: #E5E4E4;
+}
+
+#footer{
+	display: grid;
+	background-color: #111010;
+	color: white;
+	text-align: center;
+}
+
+.button{
+    background-color: #4e4e6b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all ease 0.5s;
+}
+
+.button:hover{
+	background-color: #bfc1c5;
+	color: black;
+}
+
+.text{
+    float: left;
+    margin: 60px;
+    line-height: 1.6;
+}
+
+.navbar{
+	width: 100%;
+	padding: 16px;
+	text-align: center;
+}
+.navbar li{
+	width: 16.66%;
+	display: inline-block;
+	font-weight: bold;
+}
+.navbar li a{
+	color: white; 
+	text-decoration: none;
+}
+
+.form{
+    position: absolute;
+    margin: 250px auto;
+    width: 400px;
+    height: 220px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/*For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: (ukuran layar lebih besar dari 600px) */
+    .col-m-1 {width: 8.33%}
+    .col-m-2 {width: 16.66%}
+    .col-m-3 {width: 25%}
+    .col-m-4 {width: 33.33%}
+    .col-m-5 {width: 41.66%}
+    .col-m-6 {width: 50%}
+    .col-m-7 {width: 58.33%}
+    .col-m-8 {width: 66.66%}
+    .col-m-9 {width: 75%}
+    .col-m-10 {width: 83.33%}
+    .col-m-11 {width: 91.66%}
+    .col-m-12 {width: 100%}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: (ukuran layar lebih besar dari 768px) */
+    .col-1 {width: 8.33%}
+    .col-2 {width: 16.66%}
+    .col-3 {width: 25%}
+    .col-4 {width: 33.33%}
+    .col-5 {width: 41.66%}
+    .col-6 {width: 50%}
+    .col-7 {width: 58.33%}
+    .col-8 {width: 66.66%}
+    .col-9 {width: 75%}
+    .col-10 {width: 83.33%}
+    .col-11 {width: 91.66%}
+    .col-12 {width: 100%}
+}
+
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+    margin: 0px;
+}
+
+.row div{
+    float: left;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.padding-8 {
+    padding: 8px;
+}
+.padding-16 {
+    padding: 16px;
+}
+.padding-32 {
+    padding: 32px;
+}
+.padding-64 {
+    padding: 64px;
+}
+.padding-128 {
+    padding: 128px;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+.center{
+    text-align: center;
+}
+
+.square{
+	width: 256px;
+	height: 256px;
+	padding: 8px;
+    margin: 50px
+}
+
+.square:hover{
+	transform: scale(1.5);
+	transition: all 0.3s;
+}
+
+table {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: white;
+}
+
+table tr {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+    table thead {
+        display: none;
+    }
+    table tr {
+        margin-bottom: 10px;
+        display: block;
+        border-bottom: 2px solid #ddd;
+    }
+    table td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-bottom: 1px dotted #ccc;
+    }
+    table td:last-child {
+        border-bottom: 0;
+    }
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
