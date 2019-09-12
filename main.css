@@ -31,7 +31,8 @@ body{
 
 #gallery{
     background-color: #111010;
-    color: #E5E4E4
+    color: white;
+    margin-top: 150px;
 }
 
 #home{
@@ -64,6 +65,16 @@ body{
 
 #skills{
     background-color: #E5E4E4;
+}
+
+#text{
+    background-color: #E5E4E4;
+    color: black;
+    float: left;
+    line-height: 1.6;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #topbar{
@@ -145,18 +156,20 @@ body{
 
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 400px 400px 400px;
     background-color: #111010;
     padding: 10px;
-    grid-gap: 10px;
+    margin-left: 20px;
+    grid-gap: 30px;
 }
 
 .grid-item{
-    background-color: rgb(77, 40, 40);
+    background-color: rgb(63, 34, 34);
     border-radius: 5px;
     padding: 10px;
     font-size: 15px;
     text-align: center;
+    display: inline-table;
 }
 
 .navbar{
@@ -218,13 +231,6 @@ body{
 .square:hover{
     transform: scale(1.5);
 	transition: all 0.3s;
-}
-
-.text{
-    background-color: #E5E4E4;
-    float: left;
-    margin: 60px;
-    line-height: 1.6;
 }
 
 h1{
